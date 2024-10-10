@@ -1,9 +1,9 @@
 import 'dart:collection';
-import 'dart:ffi';
 
-void main(List<String> args) {
+void main() {
   final foo = Person(name: "foo", siblings: [Person(name: "Bar")]);
   foo._siblings?.add(Person(name: "loo"));
+  print(foo);
 }
 
 class Person {
