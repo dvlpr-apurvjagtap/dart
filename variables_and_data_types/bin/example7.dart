@@ -6,12 +6,9 @@ void main(List<String> args) {
   late final value = getValue();
   print("we are here");
   print(value);
-
-
-
 }
 
-int getValue(){
+int getValue() {
   print("get value called");
   return 20;
 }

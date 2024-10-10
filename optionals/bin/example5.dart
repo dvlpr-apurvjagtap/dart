@@ -5,10 +5,11 @@ void main(List<String> args) {
   String? surname;
   print(surname?.length); //null aware operator
 
-  String? nullName;
+  String? nullName = "thakur";
   print(nullName ?? "foo");
   print(surname ?? nullName);
   print(surname ?? nullName ?? "bar");
+  print((surname ?? nullName ?? "bar").length);
 
   String? boo;
   String? foo;

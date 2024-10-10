@@ -5,5 +5,4 @@ void main(List<String> args) {
 
 void greet() {
   print("Greetings!");
-  ;
 }

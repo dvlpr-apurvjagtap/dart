@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  switchCase(0);
+  switchCase(1);
 }
 
 void switchCase(count) {
@@ -8,7 +8,6 @@ void switchCase(count) {
     case 1:
       print("monday");
       break;
-
     case 2:
       print("tuesday");
       break;
