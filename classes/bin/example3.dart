@@ -8,6 +8,7 @@ class Vehical {
   final int wheelCount;
   const Vehical(this.wheelCount);
 
+  @override
   String toString() {
     return '$runtimeType $wheelCount';
   }
